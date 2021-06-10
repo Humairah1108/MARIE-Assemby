@@ -1,0 +1,25 @@
+﻿input
+store k
+loop, load N
+	add N
+    store temp
+    add one
+    store temp
+    load sum
+    add temp
+    store sum
+    output
+    load N
+    add one
+    store N
+    load N
+    subt k
+    skipcond 000
+    jump end
+jump loop
+end, halt  
+sum, dec 0 
+N, dec 0 
+one, dec 1 
+temp, dec 0
+k, dec 0
