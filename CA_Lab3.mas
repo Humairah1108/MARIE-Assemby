@@ -1,0 +1,13 @@
+﻿Input
+Store X
+Input 
+Store Y
+Load X
+Add Y
+Store Z
+Output
+Halt
+
+X, HEX 100
+Y, HEX 101
+Z, HEX 102
